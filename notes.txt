@@ -1,0 +1,3 @@
+Radom image generator:
+<img src="https://placeimg.com/320/240/animals" /> 
+

@@ -1,0 +1,11 @@
+/* to call 'classes' from a html file*/
+.main-para {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+/* to call 'IDs' from a html file*/
+#active {
+    background-color: white;
+    color: steelblue;
+}
