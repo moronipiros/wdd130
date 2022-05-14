@@ -1,0 +1,119 @@
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.home-title{
+    color: #197278;
+}
+
+header{
+    background-color: #f3e9e2;
+}
+
+nav a{
+    text-align: center;
+    text-decoration: none;
+    color: #197278;
+}
+
+nav a:hover{
+    background-color: #f3e9e2;
+    color: #197278;
+}
+
+#hero-msg h1{
+    text-align: center;
+}
+
+.book{
+    text-decoration: none;
+    background-color: #f3e9e2;
+    color: #197278;
+}
+
+.book:hover{
+    background-color: #f3e9e2;
+    color: #197278;
+}
+
+#hero-msg h4{
+    text-align: center;
+}
+
+.button-box{
+    text-align: center;
+}
+
+main section{
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color: #f3e9e2;
+}
+
+.join{
+    text-decoration: none;
+    background-color: #f3e9e2;
+    color: #197278;
+}
+
+.join:hover{
+    background-color: #f3e9e2;
+    color: #197278;
+}
+
+footer a{
+    text-decoration: none;
+    color: #197278;
+}
+
+footer a:hover{
+    color: #197278;
+}
+
+footer h3 a:hover{
+    text-decoration: underline;
+}
+
+.logo{
+    width: 80px;
+}
+
+.icon{
+    width: 80px;
+}
+
+#hero-img{
+    width: 100%;
+}
+
+body {
+    background-color: #f3e9e2;
+}
+
+.msg{
+    background-color: #f3e9e2;
+}
+
+.msg h2{
+    color: #197278;
+}
+
+.msg p{
+    color: #197278;
+}
+
+footer{
+    background-color: #f3e9e2;
+}
+
+footer h3{
+    color: #197278;
+}
+
+h4{
+    color: #197278;
+}
