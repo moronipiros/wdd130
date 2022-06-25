@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Dancing+Script&display=swap');
+
+:root{
+    --heading-font: "Dancing Script";
+    --paragraph-font: "Cormorant Garamond", Helvetica, sans-serif;
+}
+
+/* ------ HOME PAGE ------ */
+
+#content{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*
+#logo_link{
+
+}
+*/
+.logo{
+    width: 100px;
+}
+
+#title{
+    font-size: 200%;
+}
+
+/*
+.main-grid{
+
+}
+*/
+.img-1{
+    width: 200px;
+}
+/*
+.history{
+
+}
+*/
+/*
+.hist-part-1{
+
+}
+*/
+/*.hist-part-2{
+
+}
+*/
+.img-2{
+    width: 200px;
+}
+
+
+/* ------ INFORMATION PAGE ------ */
+
+.img-3{
+    width: 200px;
+}
+
+/*.invite{
+
+}
+*/
+/*
+.invite-info{
+
+}
+*/
+/*
+.location{
+
+}
+*/
+
+.maps{
+    width: 300px;
+}
+
+/*
+.location-infor{
+
+}
+*/
+
+/* ------ GIFTS PAGE ------ */
+
+/*.msg{
+
+}
+*/
+/*.content{
+
+}
+*/
+/*
+.msg h2{
+
+}
+*/
+
+/*
+.gift{
+
+}
+*/
+
+.gift-img{
+    width: 200px;
+}
+
+/*
+.gift h2{
+
+}
+*/
+/*
+.qr-code{
+
+}
+*/
+
+.qr-img{
+    width: 200px;
+}
+
+/*
+.qr-code h2{
+
+}
+*/
