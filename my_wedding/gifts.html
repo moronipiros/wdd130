@@ -13,11 +13,24 @@
             <a id="logo_link" href="index.html">
                 <img class ="logo" src="images/logo.png" alt="My Logo">
             </a>
-            <nav>
-                <a href="index.html">Home</a>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">Our History</a>
                 <a href="invite.html">Invite</a>
                 <a href="gifts.html">Gifts</a>
-            </nav>
+                <a href="#">Gallery</a>
+            </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">≡ Menu</span>
+              
+            <script>
+              function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+              }
+              
+              function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+              }
+            </script>
         </header>
         <div id="title">
             <h1>Gifts</h1>

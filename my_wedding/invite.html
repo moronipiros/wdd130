@@ -13,11 +13,24 @@
             <a id="logo_link" href="index.html">
                 <img class ="logo" src="images/logo.png" alt="My Logo">
             </a>
-            <nav>
-                <a href="index.html">Home</a>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">Our History</a>
                 <a href="invite.html">Invite</a>
                 <a href="gifts.html">Gifts</a>
-            </nav>
+                <a href="#">Gallery</a>
+            </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">≡ Menu</span>
+              
+            <script>
+              function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+              }
+              
+              function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+              }
+            </script>
         </header>
         <div id="title">
             <h1>Invite</h1>
@@ -34,7 +47,9 @@
                 </h1>
             </section>
             <section class="location">
-                <img class="maps" src="images/google_maps.JPG" alt="Location Map">
+                <a href="https://www.google.com/maps/place/Av.+Dom+Pedro+I,+1204+-+Vila+Monumento,+S%C3%A3o+Paulo+-+SP,+01552-001/@-23.5761127,-46.6133462,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce595fb6aa519b:0xd85a1f0982d83caf!8m2!3d-23.5761176!4d-46.6111575" target="_blank">
+                    <img class="maps" src="images/google_maps.JPG" alt="Location Map">
+                </a>
                 <h1 class="location-info">The number of parking spots are limited, plan to arrive early. There are streets around where you can park, or you may use taxi.
                     Also, there are four bus stops close to the chapel.
                 </h2>

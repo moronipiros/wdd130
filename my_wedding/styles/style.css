@@ -16,12 +16,15 @@ body{
 #content{
     width: 100%;
     margin: 0 auto;
+    background-color: #f8edeb;
 }
 header{
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: #F5D8CC;
+    height: 100%;
+    box-shadow: 5px 5px 10px gray;
+    margin-bottom: 1em;
 }
 
 #logo_link{
@@ -29,10 +32,11 @@ header{
     display: flex;
     padding-top: 0px;
     margin-bottom: 0px;
+    grid-column: 2/3;
 }
 
 .logo{
-    width: 10%;
+    max-width: 20%;
     z-index: 1;
     padding-top: 10px ;
     padding-bottom: 10px;
@@ -68,21 +72,21 @@ nav a:hover{
 }
 
 #title{
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
     height: 200px;
-    background-color: #F5D8CC;
+    background-color: #f8edeb;
+    margin: auto;
+    padding: 2% 0 2% 0;
 }
 
 #title h1{
-    grid-column: 2/3;
+    color: #0b2545;
     font-size: 10em;
     text-align: center;
     font-family: var(--heading-font);
     background-color: none; 
     z-index: 1;
     font-weight: 100;
-    margin: 0;
+    margin: AUTO;
 }
 
 .home-title{
@@ -93,17 +97,18 @@ nav a:hover{
     z-index: 1;
     font-weight: 100;
     margin-bottom: 0;
+    color: #0b2545;
 }
 
 .main-grid{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    background-color: #EEE1B3;
-    padding: 50px 250px 50px 250px;
+    background-color: #f8edeb;
+    padding: 0 15% 10% 15%;
 }
 
 .main{
-    background-color: #EEE1B3;
+    background-color: #f8edeb;
     padding: 50px 250px 50px 250px;
     margin-top: -10px;
 }
@@ -112,7 +117,7 @@ nav a:hover{
     grid-column: 1/4;
     grid-row: 1/3;
     width: 100%;
-    margin-top: -200px;
+    margin-top: -1em;
 }
 
 .history{ 
@@ -140,14 +145,14 @@ nav a:hover{
 
 .img-2{
     width: 500px;
-    padding: 50px;
-    margin-top: 100px;
+    margin: 4%;
     border-radius: 50%;
     float: right;
+    box-shadow: 5px 5px 10px gray;
 }
 
 
-/* ------ INFORMATION PAGE ------ */
+/* ------ INVITE PAGE ------ */
 
 .img-3{
     width: 100%;
@@ -268,4 +273,69 @@ footer .social img{
 
 footer h3{
     font-family: var(--paragraph-font);
+}
+
+/* --------------- */
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+  
+  /* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-family: var(--paragraph-font);
+}
+  
+  /* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+  
+  /* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+span{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10%;
+    font-family: var(--paragraph-font);
+    color: #0b2545;
+}
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
 }
