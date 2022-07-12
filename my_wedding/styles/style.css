@@ -385,6 +385,11 @@ span{
     }
 
     .home-title{
-        font-size: 2em;
+        font-size: 5em;
+    }
+
+    .main{
+        padding: 25px 100px 25px 100px;
+        margin-top: -10px;
     }
 }
