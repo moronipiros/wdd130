@@ -373,6 +373,9 @@ span{
     }
     .sidenav a {font-size: 18px;
     }
+}
+
+@media screen and (max-height: 800px) {
 
     #title{
         height: 100px;
