@@ -36,8 +36,7 @@ header{
 }
 
 .logo{
-    max-width: 20%;
-    z-index: 1;
+    max-width: 100px;
     padding-top: 10px ;
     padding-bottom: 10px;
 }
@@ -370,6 +369,16 @@ span{
   
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidenav {padding-top: 15px;
+    }
+    .sidenav a {font-size: 18px;
+    }
+
+    #title{
+        height: 100px;
+        background-color: #f8edeb;
+        margin: auto;
+        padding: 2% 0 2% 0;
+    }
+
 }
