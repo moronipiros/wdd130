@@ -395,7 +395,7 @@ span{
 
     .img-2{
         width: 250px;
-        margin: 4%;
-        float: none;
+        margin: 5px;
+        float: center;
 }
 }
