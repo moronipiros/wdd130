@@ -85,7 +85,7 @@ nav a:hover{
     background-color: none; 
     z-index: 1;
     font-weight: 100;
-    margin: AUTO;
+    margin: auto;
 }
 
 .home-title{
@@ -381,4 +381,7 @@ span{
         padding: 2% 0 2% 0;
     }
 
+    .home-title{
+        font-size: 2em;
+    }
 }
